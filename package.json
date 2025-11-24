@@ -1,6 +1,6 @@
 {
   "name": "@svktarslan/svk-theme",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "description": "Reusable React Native UI components and theme utilities.",
   "main": "dist/index.js",
@@ -24,6 +24,12 @@
     "build": "npm run clean && tsc -p tsconfig.build.json",
     "dev": "tsc -w -p tsconfig.build.json",
     "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4",
+    "@types/react": "^19.0.0",
+    "react": "19.1.0",
+    "react-native": "0.80.0"
   },
   "peerDependencies": {
     "@gorhom/bottom-sheet": ">=5.0.0",
