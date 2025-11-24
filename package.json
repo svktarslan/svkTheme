@@ -1,6 +1,6 @@
 {
   "name": "@svktarslan/svk-theme",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "Reusable React Native UI components and theme utilities.",
   "main": "dist/index.js",
@@ -51,5 +51,3 @@
     "url": "https://example.com/repo.git"
   }
 }
-
-
