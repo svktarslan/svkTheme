@@ -1,0 +1,26 @@
+export const theme = {
+  light: {
+    primary: "#5fa8d3",
+    secondary: "#ffffff",
+    quaternary: "#3282B8",
+    white: "#eeeeee",
+    placeholderTextColor: "#9DB2BF",
+    text: "#252B48",
+    softBlack: "#00000050",
+    pageContainer: "#f5f9fa",
+    voleyball: "#1b496580",
+    layout: "#1b4965",
+  },
+  dark: {
+    primary: "#279EFF",
+    secondary: "#1b272e",
+    quaternary: "#3282B8",
+    white: "#9e9e9e",
+    placeholderTextColor: "#aaa",
+    text: "#ffffff",
+    softBlack: "#9e9e9e",
+    pageContainer: "#0f171d",
+    voleyball: "#ffffff80",
+    layout: "#222831",
+  },
+};
