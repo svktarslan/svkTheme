@@ -1,7 +1,7 @@
-import { staticColors, useTheme } from '@svkTheme/hooks/useTheme';
+import { staticColors, useTheme } from '../../hooks/useTheme';
 import { Image, StyleSheet, View } from 'react-native';
-import CustomText from '@svkTheme/components/CustomText';
-import layout from '@svkTheme/theme/layout';
+import CustomText from '../CustomText';
+import layout from '../../theme/layout';
 
 const overlap = 13;
 export default ({

@@ -1,0 +1,55 @@
+{
+  "name": "@svktarslan/svk-theme",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Reusable React Native UI components and theme utilities.",
+  "main": "dist/index.js",
+  "react-native": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "react-native": "./dist/index.js",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./*": "./dist/*"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc -p tsconfig.build.json",
+    "dev": "tsc -w -p tsconfig.build.json",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "@gorhom/bottom-sheet": ">=5.0.0",
+    "i18next": ">=22.0.0",
+    "react": "^18.0.0 || ^19.0.0",
+    "react-hook-form": ">=7.0.0",
+    "react-i18next": ">=12.0.0",
+    "react-native": ">=0.72.0",
+    "react-native-gesture-handler": ">=2.0.0",
+    "react-native-keyboard-controller": ">=1.5.0",
+    "react-native-reanimated": ">=3.0.0",
+    "react-native-safe-area-context": ">=4.0.0",
+    "react-native-screens": ">=3.0.0",
+    "react-native-vector-icons": ">=9.0.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "ui",
+    "components",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://example.com/repo.git"
+  }
+}
+
+

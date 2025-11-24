@@ -1,9 +1,9 @@
-import layout from '@svkTheme/theme/layout';
+import layout from '../../theme/layout';
 import React, { memo, useEffect, useRef, useState } from 'react';
 import { ScrollView, TouchableOpacity } from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import { useTheme } from '@svkTheme/hooks/useTheme';
-import CustomText from '@svkTheme/components/CustomText';
+import { useTheme } from '../../hooks/useTheme';
+import CustomText from '../CustomText';
 
 interface SvktSelectListType {
   onChange?: any;

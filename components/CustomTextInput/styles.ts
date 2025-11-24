@@ -1,4 +1,4 @@
-import { staticColors } from '@svkTheme/hooks/useTheme';
+import { staticColors } from '../../hooks/useTheme';
 import { StyleSheet } from 'react-native';
 
 const Styles = (colors: any) => {

@@ -1,9 +1,9 @@
-import { useTheme } from '@svkTheme/hooks/useTheme';
-import layout from '@svkTheme/theme/layout';
+import { useTheme } from '../../hooks/useTheme';
+import layout from '../../theme/layout';
 import React, { memo } from 'react';
 import { TouchableOpacity, View } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import CustomText from '@svkTheme/components/CustomText';
+import CustomText from '../CustomText';
 
 interface ActionsType {
   onPress?: () => void;

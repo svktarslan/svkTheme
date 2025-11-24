@@ -10,17 +10,17 @@ import {
   ViewStyle,
   LayoutAnimation,
 } from "react-native";
-import layout from "@svkTheme/theme/layout";
-import CustomText from "@svkTheme/components/CustomText";
+import layout from "../../theme/layout";
+import CustomText from "../CustomText";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import { Control, RegisterOptions, useController } from "react-hook-form";
 import { useTranslation } from "react-i18next";
-import { staticColors, useTheme } from "@svkTheme/hooks/useTheme";
-import { validations } from "@svkTheme/utils/regex";
+import { staticColors, useTheme } from "../../hooks/useTheme";
+import { validations } from "../../utils/regex";
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
-import { searchAscii } from "@svkTheme/utils/makeAscii";
+import { searchAscii } from "../../utils/makeAscii";
 import Style from "./styles";
-import CustomAsyncButton from "@svkTheme/components/CustomAsyncButton";
+import CustomAsyncButton from "../CustomAsyncButton";
 
 interface SvktTextInputType {
   title?: string;

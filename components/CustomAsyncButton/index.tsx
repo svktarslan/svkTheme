@@ -1,9 +1,9 @@
-import { staticColors, useTheme } from '@svkTheme/hooks/useTheme';
+import { staticColors, useTheme } from '../../hooks/useTheme';
 import React, { memo, useState } from 'react';
 import { TextStyle, TouchableOpacity, ViewStyle } from 'react-native';
 import Style from './styles';
-import layout from '@svkTheme/theme/layout';
-import CustomText from '@svkTheme/components/CustomText';
+import layout from '../../theme/layout';
+import CustomText from '../CustomText';
 
 interface SparkAsyncButtonType {
   text: string;

@@ -1,5 +1,5 @@
 import React, { View, Modal, TouchableWithoutFeedback } from 'react-native';
-import { useTheme } from '@svkTheme/hooks/useTheme';
+import { useTheme } from '../../hooks/useTheme';
 import { memo } from 'react';
 
 type Props = {

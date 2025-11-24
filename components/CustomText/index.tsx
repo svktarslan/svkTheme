@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 import { Text, TextStyle, TouchableOpacity, ViewStyle } from 'react-native';
 import Style from './styles';
 import { useTranslation } from 'react-i18next';
-import { useTheme } from '@svkTheme/hooks/useTheme';
+import { useTheme } from '../../hooks/useTheme';
 
 interface SparkoTextType {
   text: string;

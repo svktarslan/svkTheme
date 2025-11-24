@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { View, ViewStyle } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import { staticColors } from '@svkTheme/hooks/useTheme';
+import { staticColors } from '../../hooks/useTheme';
 import Style from './styles';
 
 interface StarRatingProps {

@@ -4,8 +4,8 @@ import BottomSheet, {
   BottomSheetView,
   BottomSheetHandleProps,
 } from "@gorhom/bottom-sheet";
-import layout from "@svkTheme/theme/layout";
-import { useTheme } from "@svkTheme/hooks/useTheme";
+import layout from "../../theme/layout";
+import { useTheme } from "../../hooks/useTheme";
 import { Keyboard } from "react-native";
 
 type LayoutProps = {

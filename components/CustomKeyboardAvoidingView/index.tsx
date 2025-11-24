@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 import { Keyboard, Platform, TouchableOpacity } from 'react-native';
-import layout from '@svkTheme/theme/layout';
+import layout from '../../theme/layout';
 import { KeyboardAvoidingView } from 'react-native-keyboard-controller';
 const App = ({
   children,
